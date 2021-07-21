@@ -1,0 +1,52 @@
+.keyboard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--keypad-background);
+  margin-top: 1rem;
+  padding: 0.5rem;
+  .keyboard-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  button {
+    padding: 0.6rem;
+    margin: 0.4rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 3px solid transparent;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .btn-primary {
+    color: var(--text2);
+    background-color: var(--key3-background);
+    border-bottom: 3px solid var(--key3-shadow);
+  }
+  .btn-primary:hover {
+    border: 3px solid var(--key3-shadow); 
+  }
+  .btn-secondary {
+    color: #fff;
+    background-color: var(--key1-background);
+    border-bottom: 3px solid var(--key1-shadow);
+  }
+  .btn-secondary:hover {
+    border: 3px solid var(--key1-shadow); 
+  }
+  .btn-tertiary {
+    color: #fff;
+    background-color: var(--key2-background);   
+    border-bottom: 3px solid var(--key2-shadow);
+  }
+  .btn-tertiary:hover {
+    border: 3px solid var(--key2-shadow); 
+  }
+  .btn-small {
+    width: 20%;
+  }
+  .btn-large {
+    width: 45%;
+  }
+}

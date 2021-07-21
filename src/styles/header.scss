@@ -1,0 +1,41 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    margin: 0;
+    color: var(--text1);
+  }
+  input:hover {
+    cursor: pointer;
+  }
+}
+
+.modetoggle-container {
+  display: flex;
+  align-items: flex-end;
+  color: var(--text1);
+  label {
+    margin-right: 1rem;
+    margin-bottom: 0;
+    font-size: 80%;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .toggle-radios {
+    display: flex;
+    justify-content: space-between;
+    width: 3.2rem;
+    padding-bottom: 0.1rem;
+  }
+  .toggle-radio-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    p {
+      margin: 0;
+      font-size: 80%;
+      font-weight: bolder;
+    }
+  }
+}
